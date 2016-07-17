@@ -1,0 +1,28 @@
+{
+  "name": "crfs",
+  "version": "1.0.0",
+  "description": "App for the UVU Capitol Reef Field Station",
+  "main": "www/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "reload -d public/ -s src-index.html -p 3000 -b",
+    "checkapp": "polylint --root public/ --input src-index.html",
+    "spock": "vulcanize public/src-index.html > public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetic1/crfs.git"
+  },
+  "author": "Braydon Powell, Katelyn Earl, Tyler Searle, Shane Frogley, Trevor Bluth, Sunny Stevenson, Evan Sorenson, Josue Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetic1/crfs/issues"
+  },
+  "homepage": "https://github.com/thetic1/crfs#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "polylint": "^2.10.1",
+    "reload": "^1.0.1",
+    "vulcanize": "^1.14.8"
+  }
+}
