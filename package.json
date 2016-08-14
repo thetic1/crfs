@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "reload -d public/ -s src-index.html -p 3000 -b",
     "checkapp": "polylint --root public/ --input src-index.html",
-    "spock": "vulcanize public/src-index.html > public/index.html"
+    "spock": "vulcanize www/src-index.html > www/index.html"
   },
   "repository": {
     "type": "git",

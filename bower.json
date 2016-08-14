@@ -1,0 +1,29 @@
+{
+  "name": "crfs",
+  "description": "App for the UVU Capitol Reef Field Station",
+  "main": "www/index.html",
+  "authors": [
+    "Braydon Powell",
+    "Katelyn Earl",
+    "Tyler Searle",
+    "Shane Frogley",
+    "Trevor Bluth",
+    "Sunny Stevenson",
+    "Evan Sorenson",
+    "Josue Hernandez"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/thetic1/crfs",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.6.1"
+  }
+}
