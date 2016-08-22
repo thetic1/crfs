@@ -1,5 +1,13 @@
 body {
 
-    background-color: aqua;
+    background-color: #275D38;
+
+}
+
+button {
+
+    background-color: white;
+    height: 30%;
+    margin: 10px;
 
 }
