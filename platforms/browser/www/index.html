@@ -4,15 +4,13 @@
 
 <head>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/stylesheets/style.css">
 
-    <link rel="import" href="/imports.html">
+    <script defer="defer" src="/javascript/flush.js"></script>
 
 	<title>CRFS</title>
 
@@ -20,9 +18,57 @@
 
 <body>
 
-    <app-main id="app"></app-main>
+    <h1>I am a phone gap app.</h1>
+
+    <button id="large">Large Flush</button>
+
+    <button id="small">Small Flush</button>
+
 
 </body>
+
+    <style>
+
+        body {
+
+        background-color: #275D38;
+
+        }
+
+        button {
+
+            background-color: white;
+            height: 5em;
+            margin: 10px 0 10px 0;
+            width: 100%
+        }
+
+    </style>
+
+    <script>
+
+        function largeFlush() {
+
+            gallons += 2;
+
+            alert(gallons);
+
+        }
+
+        function smallFlush() {
+
+            gallons += 1;
+
+            alert(gallons);
+
+        }
+
+        var gallons = 0;
+
+        document.querySelector('#large').onclick = largeFlush;
+        document.querySelector('#small').onclick = smallFlush;
+
+    </script>
 
 </html>
 
